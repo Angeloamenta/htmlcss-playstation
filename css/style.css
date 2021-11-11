@@ -46,7 +46,7 @@ width: 80PX;
 }
 
 .returnal-logo img {
-    width: 80%;
+    width: 60%;
 } 
 
 
@@ -55,7 +55,6 @@ width: 80PX;
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
-
 }
 
 .jumbo-sub .row .cover {
@@ -104,4 +103,62 @@ width: 80PX;
 
 .img-ps5 img {
     width: 100%;
+
+}
+
+.accessories-ps5 {
+    display: flex;
+    justify-content: center;
+}
+
+.active-accessories {
+    border-bottom: 1px #2F8CD7 solid;
+}
+.accessories-ps5 img {
+    width: 80%;
+}
+
+/* it takes two */
+
+.taketwo {
+    color: white;
+}
+
+.bg-takes {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.taketwo-logo img {
+    width: 55%;
+} 
+
+/* nuove uscite */
+
+.bg-releases {
+    background-color: #1F1F1F;
+}
+
+.new-releases {
+    color: white;
+}
+
+.list-game {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cover-game {
+    list-style: none;
+    width: calc((100% / 6));
+}
+
+.new-game img {
+    width: 100%;
+}
+
+.game-title {
+    font-size: 0.9rem;
 }
