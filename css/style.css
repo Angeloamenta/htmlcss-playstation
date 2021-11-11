@@ -4,9 +4,13 @@ html {
 }
 
 /* header */
+.heeader-top {
+    width: 100;
+}
+
 
 .logo-s {
-    width:  50px;
+
 }
 
 
@@ -27,3 +31,6 @@ html {
     font-size: 1.3em;
     color: black;
 }
+
+
+
