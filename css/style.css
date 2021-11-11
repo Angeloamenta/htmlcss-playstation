@@ -3,6 +3,27 @@ html {
     font-size: 100%;
 }
 
+/* header */
+
 .logo-s {
-    width:  80px;
+    width:  50px;
+}
+
+
+/* navbar */
+.header-bottom {
+    font-size: 0.9em;
+}
+
+.search-bar {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.search-bar a .fa-solid  {
+    font-size: 1.3em;
+    color: black;
 }
