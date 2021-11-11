@@ -57,3 +57,17 @@ width: 80PX;
     background-repeat: no-repeat;
 
 }
+
+.jumbo-sub .row .cover {
+    overflow: hidden;
+
+}
+
+.jumbo-sub .row .cover a{
+    display: block;
+}
+
+.jumbo-sub .row .cover a img {
+    width: 100%;
+    border-radius: 5%;
+}
