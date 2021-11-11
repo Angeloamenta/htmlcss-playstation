@@ -2,3 +2,11 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
 }
+
+.logo-s {
+    width:  100px;
+}
+
+.bg-black {
+    background-color: black;
+}
