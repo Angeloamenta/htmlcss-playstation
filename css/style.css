@@ -39,3 +39,7 @@ html {
 .dropdown {
     position:unset;
 }
+
+.list-dot {
+    list-style:circle;
+}
