@@ -41,9 +41,19 @@ width: 80PX;
 }
 
 /* jumbotron */
+.jumbotron {
+    color: white;
+}
+
+.returnal-logo img {
+    width: 80%;
+} 
+
+
 .bg-returnal {
     background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
+
 }
