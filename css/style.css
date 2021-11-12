@@ -22,6 +22,11 @@ width: 80PX;
     outline-offset: -4px;
 }
 
+.black-b:hover {
+    outline: 2px solid black;
+    offset: our;
+    outline-offset: -4px;
+}
 
 /* navbar */
 .header-bottom {
