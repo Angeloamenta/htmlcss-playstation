@@ -121,21 +121,27 @@ header .header-bottom .list-inline .list-inline-item:hover {
 
 .accessories-ps5 {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-.active-accessories {
+.active {
     border-bottom: 1px #2F8CD7 solid;
 }
 .accessories-ps5 img {
     width: 80%;
 }
 
+.inactive,
+.active {
+text-decoration: none;
+color: black;
+}
 .inactive> *{
     opacity: 70%;
 }
 
-.inactive>*:hover {
+.inactive:hover >* {
     opacity: 100%;
 }
 
