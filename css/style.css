@@ -6,6 +6,10 @@ html {
 .mt-jumbo {
     margin-top: 116px;
 }
+
+.subtitle-section {
+    color: #787878;
+}
 /* header */
 
 .logo-s {
@@ -35,14 +39,33 @@ width: 80PX;
 	width:100% !important;
 }
 
+.dropdown-menu[data-bs-popper] {
+    margin-top: 0;
+    top:99%
+}
+
 .dropdown {
     position:unset;
+}
+
+header .header-bottom .list-inline .list-inline-item a img {
+    width: 5em;
 }
 
 .list-dot {
     list-style:circle;
 }
 
+.dropdown-toggle.show:after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid transparent;
+    border-right: .3em solid transparent;
+    border-bottom: .3em solid;
+    border-left: .3em solid transparent;
+}
 /* jumbotron */
 .jumbotron {
     color: white;
@@ -74,27 +97,6 @@ width: 80PX;
     width: 85%;
     border-radius: 5%;
 }
-
-/* @media screen and (max-width:992) {
-    .jumbo-sub .row .cover a img {
-        width: 100%;
-        border-radius: 5%;
-    }
-}
-
-@media screen and (max-width:768) {
-    .jumbo-sub .row .cover a img {
-        width: 50%;
-        border-radius: 5%;
-    }
-}
-
-@media screen and (max-width:576) {
-    .jumbo-sub .row .cover a img {
-        width: 80%;
-        border-radius: 5%;
-    }
-} */
 
 /* ps5 */
 
