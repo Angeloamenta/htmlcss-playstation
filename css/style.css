@@ -221,3 +221,24 @@ width: 80PX;
 .social-img img {
     width: 100%;
 }
+
+/* footer */
+footer {
+    background-color: #00439C;
+    color: white;
+
+}
+
+footer .list-unstyled li a {
+    color: white;
+    text-decoration: none;
+}
+
+.sie-logo img {
+    width: 120px;
+}
+
+.copyright a {
+    color: white;
+    text-decoration: underline;
+}
