@@ -210,3 +210,14 @@ width: 80PX;
 .psnow-img img {
     width: 100%;
 }
+
+/* social media */
+
+.social-img {
+    display: flex;
+    justify-content: center;
+}
+
+.social-img img {
+    width: 100%;
+}
