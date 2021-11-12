@@ -16,6 +16,12 @@ html {
 width: 80PX;
 }
 
+.white-b:hover {
+    outline: 2px solid white;
+    offset: our;
+    outline-offset: -4px;
+}
+
 
 /* navbar */
 .header-bottom {
