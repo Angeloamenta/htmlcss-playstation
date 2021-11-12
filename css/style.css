@@ -3,6 +3,9 @@ html {
     font-size: 100%;
 }
 
+.mt-jumbo {
+    margin-top: 116px;
+}
 /* header */
 
 .logo-s {
