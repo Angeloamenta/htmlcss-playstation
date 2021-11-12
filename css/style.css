@@ -124,8 +124,14 @@ header .header-bottom .list-inline .list-inline-item:hover {
 }
 
 .jumbo-sub .row .cover a img {
-    width: 85%;
-    border-radius: 5%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.selected-cover {
+    border: 2px solid #0070D1;
+    padding: 1px;
+    border-radius: 10px;
 }
 
 .cover {
