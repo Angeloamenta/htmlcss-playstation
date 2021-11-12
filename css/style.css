@@ -162,3 +162,32 @@ width: 80PX;
 .game-title {
     font-size: 0.9rem;
 }
+
+/* esplora ps4 */
+
+.explore-img img {
+    width: 100%;
+}
+
+/* playstation plus */
+.psplus {
+    background-color: #BEBCBB;
+}
+
+.psplus-title img {
+    width: 70%;
+}
+
+.psplus .btn {
+    color: #2D64E6;
+}
+
+.psplus-img img {
+    width: 100%;
+}
+
+/* sales */
+
+.sales .container .row img {
+    width: 100%;
+}
